@@ -1,0 +1,121 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #E6E6FA;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	width: 80%;
+	margin-top: 18%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media screen and (max-width: 599px){
+     .container{
+     	margin-top: 60%;
+     }
+}
+
+    .textomenu{
+	margin-top: auto;
+   }
+
+a.link{
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a.linkmenu{
+	color: blue;
+	text-decoration: none;
+}
+
+
+header,footer{
+	background-color: #F0FFF0;
+	padding: 0.7%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a:visited{
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover{
+	color: green;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active{
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.fixo{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+h1{
+	text-align: center;
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+	font-weight:;
+}
+
+h2,h3{
+	text-align: center;
+	color: #708090;
+	font-family: 'Poppins', sans-serif;
+	font-weight:;
+}
+
+p{
+	color: 
+	font-weight:;
+	font-size:;
+	text-align: justify;
+}
+
+ul li{
+	text-decoration:;
+	color:;
+	font-weight:;
+}
+
+figure{
+	text-align: center;
+}
+
+.imgtattoo{
+	width: 50%;
+	height:50%;
+	border-radius: 50%;
+	border-style: double;
+}
+
+.imgtattooa{
+	width: 50%;
+	height:50%;
+	border-radius: 60%;
+	border-style: double;
+}
+
+.imgtexto{
+	width: 50%;
+	height: 50%;
+}
